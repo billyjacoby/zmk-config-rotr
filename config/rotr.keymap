@@ -19,6 +19,11 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            // BLUE
+            ledoverride;
+            r = <0>;
+            g = <137>;
+            b = <255>;
         };
 
         one {
@@ -29,6 +34,12 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LS(LG(Z)) LG(Z)>;
+            // GREEN
+            ledoverride;
+            r = <50>;
+            g = <255>;
+            b = <0>;
+
         };
 
         two {
@@ -39,6 +50,11 @@
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            // PINK
+            ledoverride;
+            r = <255>;
+            g = <0>;
+            b = <231>;
         };
 
         three {
@@ -57,6 +73,11 @@
             >;
 
             sensor-bindings = <&def_lshft>;
+            // RED
+            ledoverride;
+            r = <255>;
+            g = <0>;
+            b = <0>;
         };
     };
 };
