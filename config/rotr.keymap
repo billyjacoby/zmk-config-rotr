@@ -25,7 +25,7 @@
             //PREV | PLAY/PAUSE | NEXT
 
             bindings = <
-&kp LG(LS(LEFT_ARROW))  &lt 4 LG(LS(UP_ARROW))  &kp LG(LS(RIGHT))
+&kp LC(LEFT_ARROW)  &lt 4 LC(UP_ARROW)  &kp LC(RIGHT)
             >;
 
             sensor-bindings = <&inc_dec_kp LS(LG(Z)) LG(Z)>;
